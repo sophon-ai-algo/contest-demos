@@ -119,7 +119,7 @@ class Tester:
                     time_start = time.time()
                     pred = self.test_one(img_pth)
                     time_cost = time.time() - time_start
-                    print('{} {:.4f}'.format(img_id, pred), file=out)
+                    print('{} {:.4f} {:.9f}'.format(img_id, pred, time_cost), file=out)
                     print('{} {:.4f}'.format(img_id, pred))
                     print('time cost {}'.format(time_cost))
          
