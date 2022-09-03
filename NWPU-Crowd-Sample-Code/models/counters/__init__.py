@@ -1,4 +1,4 @@
-# from . import CSRNet
+from . import CANNet
 from . import MCNN
 from . import VGG
 #from . import Res101_SFCN
