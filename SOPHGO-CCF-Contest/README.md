@@ -6,6 +6,12 @@
 
 其中model_tracing.py，data_handling.py仅为示例演示，并非固定使用，选手可自行更改，pretrained_model中提供的预训练模型源码仓库如下：
 
+MCNN: https://github.com/svishwa/crowdcount-mcnn #(PyTotch)(unofficial)
+     		 https://github.com/aditya-vora/crowd_counting_tensorflow #(TensorFlow)(unofficial)
+CSRNet: https://github.com/leeyeehoo/CSRNet-pytorch
+VGG: https://github.com/pytorch/vision/blob/6db1569c89094cf23f3bc41f79275c45e9fcb3f3/torchvision/models/vgg.py
+CANNet: https://github.com/weizheliu/Context-Aware-Crowd-Counting
+
 ## 1 搭建本地开发环境
 
 ### 1.1 本地开发环境需求
@@ -209,7 +215,7 @@ python3 -m ufw.cali.cali_model \
 --model ./pytorch_model/traced_model.pt \
 --cali_lmdb ./lmdb \
 --cali_iterations 200 \
---input_shapes '(1,3,576,768) 
+--input_shapes '(1,3,576,768)'
 ```
 
 cali_iterations: 量化校准图片数量，默认值为 0 表示从 lmdb 或图片目录中获取真实数量,可以设置小于实际数量的图片数， 一般推荐使用 200 张图片校准
