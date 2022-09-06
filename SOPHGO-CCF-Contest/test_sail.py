@@ -112,7 +112,7 @@ class Tester:
     def test_all(self):
         """test all images and save results"""
         with open(args.result, 'w') as out:
-            with open(os.path.join(args.data, 'TestDataSet.txt')) as f:
+            with open(os.path.join('TestDataSet.txt')) as f:
                 for line in f.readlines():
                     img_id = line.split()[0]
                     img_pth = os.path.join(args.data, 'img_' + img_id + '.jpg')
