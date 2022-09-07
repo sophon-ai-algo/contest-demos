@@ -241,17 +241,17 @@ bmrt_test --context_dir CSRNet
 
 ------
 
-- 本地 fp32bmodel 地址：/contest_demo/NWPU-Crowd-Sample-Code/bmodel_fp32/ 
+- 本地 fp32bmodel 地址：/contest_demos/SOPHGO-CCF-Contest/NWPU-Crowd-Sample-Code/bmodel_fp32/ 
 
-- 本地 int8bmodel 地址：/contest_demo/NWPU-Crowd-Sample-Code/pytorch_model/CSRNet/ 
+- 本地 int8bmodel 地址：/contest_demos/SOPHGO-CCF-Contest/NWPU-Crowd-Sample-Code/pytorch_model/CSRNet/ 
 
-- 测试集地址：/contest_demo/Test 
+- 测试集地址：/contest_demo/SOPHGO-CCF-Contest/Test 
 
-- 相关文件：/contest_demo/data_handling.py 
+- 相关文件：/contest_demo/SOPHGO-CCF-Contest/data_handling.py 
 
-  ​                   /contest_demo/TestDataSet.txt 
+  ​                   /contest_demo/SOPHGO-CCF-Contest/TestDataSet.txt 
 
-  ​                   /contest_demo/test_sail.py
+  ​                   /contest_demo/SOPHGO-CCF-Contest/test_sail.py
 
 ------
 
