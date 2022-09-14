@@ -116,6 +116,7 @@ git clone https://github.com/sophon-ai-algo/contest-demos.git
 #将CSRNet的pth文件添加到pytorch_model目录下
 cd NWPU-Crowd-Sample-Code/ 
 mkdir pytorch_model
+
 cp ./pretrained_model/CSRNet-all_ep_529_mae_104.9_mse_433.5_nae_1.255.pth ./NWPU-Crowd-Sample-Code/pytorch_mode
 ```
 
