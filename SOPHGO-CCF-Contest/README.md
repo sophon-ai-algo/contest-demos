@@ -117,7 +117,7 @@ git clone https://github.com/sophon-ai-algo/contest-demos.git
 cd NWPU-Crowd-Sample-Code/ 
 mkdir pytorch_model
 cd ..
-cp ./pretrained_model/CSRNet-all_ep_529_mae_104.9_mse_433.5_nae_1.255.pth ./NWPU-Crowd-Sample-Code/pytorch_mode
+cp ./pretrained_model/CSRNet-all_ep_529_mae_104.9_mse_433.5_nae_1.255.pth ./NWPU-Crowd-Sample-Code/pytorch_model
 ```
 
 #### iii. 加入 model_tracing.py 文件，用于生成 traced_model.pt
