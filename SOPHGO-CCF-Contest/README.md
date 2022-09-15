@@ -125,7 +125,7 @@ cp ./pretrained_model/CSRNet-all_ep_529_mae_104.9_mse_433.5_nae_1.255.pth ./NWPU
 ```
 #将 model_tracing.py 添加到 NWPU-Crowd-Sample-Code 目录下 (该 py 文件要和 misc 在同一目录，否则无法引包) 
 python3 model_tracing.py --input-shape '(1,3,576,768)' \
---weights-path pytorch_model/CSRNet-all_ep_529_ mae_104.9_mse_433.5_nae_1.255.pth \
+--weights-path pytorch_model/CSRNet-all_ep_529_mae_104.9_mse_433.5_nae_1.255.pth \
 --out-path pytorch_model/traced_model.pt
 
 #如出现报错提示缺少easydict，则通过以下命令安装
