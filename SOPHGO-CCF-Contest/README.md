@@ -246,7 +246,7 @@ bmrt_test --context_dir CSRNet
 
 - 本地 int8bmodel 地址：/contest_demos/SOPHGO-CCF-Contest/NWPU-Crowd-Sample-Code/pytorch_model/CSRNet/ 
 
-- 测试集地址：/contest_demo/SOPHGO-CCF-Contest/Test 
+- 测试集地址：可从竞赛官网处下载获取 
 
 - 相关文件：/contest_demo/SOPHGO-CCF-Contest/data_handling.py 
 
