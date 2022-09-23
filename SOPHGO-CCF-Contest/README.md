@@ -16,7 +16,7 @@ CANNet: https://github.com/weizheliu/Context-Aware-Crowd-Counting
 
 ### 1.1 本地开发环境需求
 
-- 开发主机：一台安装了Ubuntu18.04的x86主机，运行内存8GB以上(小于8G可能会在量化时中断）。
+- 开发主机：一台安装了Ubuntu18.04的x86架构下的64位系统主机，运行内存8GB以上(小于8G可能会在量化时中断）。
 - 算能 docker镜像
 - 算能 SDK2.7.0
 
