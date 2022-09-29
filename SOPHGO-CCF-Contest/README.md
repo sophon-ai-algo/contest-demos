@@ -256,7 +256,7 @@ bmrt_test --context_dir CSRNet
 
 ------
 
-推理的接口对 input tensor 有要求，所以要先将测试集原始数据统一处理为同一尺寸。
+先对测试集原始数据尺寸进行统一处理。
 
 具体代码实现在 data_handling.py，data_handling.py 的参数分别为--img-path和--out-path，分别表示输入数据集路径和输出数据集路径。
 
