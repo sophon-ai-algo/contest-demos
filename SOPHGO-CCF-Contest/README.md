@@ -317,17 +317,20 @@ source envsetup_pcie.sh bmnetp
 
 选手可通过[算能官网](https://www.sophgo.com) 的“SOPHNET平台 → 云开发平台”跳转到SOPHNET-云开发平台，也可以通过[云平台地址](https://cloud.sophgo.com)直接进入到开放云平台。登陆用户名密码与在算能官网注册的开发者用户名密码一致。
 
-![image-20220929110058363](D:\Users\MSY\AppData\Roaming\Typora\typora-user-images\image-20220929110058363.png)
+![image-20220929110058363](https://user-images.githubusercontent.com/69101221/192957624-79ac8408-d73e-4c68-b708-6aee6d4c2f5e.png)
+
 
 ### **2.**云开发空间申请
 
 登录云开发平台后，选手进入云空间申请页面选择TPU编程大赛云开发空间，点击“空间详情”，进入空间描述页面。
 
-![image-20220929110203115](D:\Users\MSY\AppData\Roaming\Typora\typora-user-images\image-20220929110203115.png)
+![image-20220929110203115](https://user-images.githubusercontent.com/69101221/192957541-1afa444e-9ced-4dde-991e-6e8cd083439a.png)
+
 
 点击“立即申请”，弹出云空间申请弹窗，用户可以选择申请使用的时长及填写申请用途，若不能选择申请时长则由系统自行分配。点击“提交”后，需要等待平台管理员审核，用户可以在“我的工作台”中查看当前申请空间的审批状态。
 
-![image-20220929110246649](D:\Users\MSY\AppData\Roaming\Typora\typora-user-images\image-20220929110246649.png)
+![image-20220929110246649](https://user-images.githubusercontent.com/69101221/192957699-6b41e484-a140-4fea-b87a-bebdabb11899.png)
+
 
 注意用户第一次申请空间时，会弹出资料完善页面，用户需要补充填写相关信息并签署云空间使用协议，完善个人信息后，才可进行云空间申请。
 
@@ -337,17 +340,22 @@ source envsetup_pcie.sh bmnetp
 
 用户申请的云空间审批后，将鼠标移至“进入空间”上方，会在当前页面弹出一个小窗口。
 
-![image-20220929110318728](D:\Users\MSY\AppData\Roaming\Typora\typora-user-images\image-20220929110318728.png)
+![image-20220929110318728](https://user-images.githubusercontent.com/69101221/192957725-fad8d177-b964-4b20-9428-ca94434f73e1.png)
+
 
 点击“云空间Web终端”链接，会自动弹出新的web窗口并进入云主机。进入云主机后，云主机的用户使用方式与物理机完全一致。
 
 如果用户需要在云空间主机与本地之间进行文件传输，可以点击“云空间文件系统“链接，进入文件传输与管理工作台。文件管理工作台操作的云空间主机目录默认是在/tmp/下面，工作台提供了新建、删除、剪切、复制文件或文件夹的功能。如果要将本地文件上传到云空间，可以在右侧云工作空间点击右键，选择上传文件。
+![image-20220929110637002](https://user-images.githubusercontent.com/69101221/192958007-26db47bd-2c21-4469-93be-f48ebedc8802.png)
+
 
 在弹出的上传文件弹出框中，将要上传的本地文件拖拽进去即启动上传，要注意的是，应尽量避免上传超大型文件，为防止恶意攻击，平台会对普通用户的上传速度及上传流量做一定限制。
 
 如果需要将云空间的文件下载到本地，可以选中要下载的文件，点击右键，选择下载即可。
 
-![image-20220929110713254](D:\Users\MSY\AppData\Roaming\Typora\typora-user-images\image-20220929110713254.png)
+![image-20220929110713254](https://user-images.githubusercontent.com/69101221/192958116-a03f684e-98c8-4e95-9e6a-604d9e6926bd.png)
+
+
 
 注：bmprofile指令在1684上（SC5/SE5）都有可能导致设备hang死，目前尚无好的修复办法，只能断电重启，请**谨慎使用**。
 
