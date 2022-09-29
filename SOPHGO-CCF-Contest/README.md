@@ -311,6 +311,12 @@ source envsetup_pcie.sh bmnetp
 
 
 
+
+
+
+
+
+
 # 附录：CCFBDCI-算能竞赛云空间使用说明
 
 ### **1.SOPHGO TEAM-**云开发平台
